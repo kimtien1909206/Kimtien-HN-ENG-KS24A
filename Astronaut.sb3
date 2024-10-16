@@ -1,0 +1,8 @@
+when [green flag] clicked
+forever
+   if <key [left arrow] pressed?> then
+       change x by (-10)
+   if <key [right arrow] pressed?> then
+       change x by (10)
+   if on edge, bounce
+end
